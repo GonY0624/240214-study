@@ -32,6 +32,7 @@ public class Application02 {
         System.out.println("iarr2의 길이 = " + iarr2.length);
 
         /* 필기. 하지만 한 번 지정한 배열의 크기는 변경하지 못한다.  */
+        /* 필기. 원래의 5칸의 길이에서 15칸이 늘어난 개념이 아니라 아예 20칸짜리가 새로운 공간이 만들어진거임.  */
         iarr2 = new int[20];
 
         System.out.println("수정 후 iarr2의 hashcode : " + iarr2.hashCode());
